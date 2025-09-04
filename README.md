@@ -1,7 +1,7 @@
 # pkg-defrag
 
-This simple tool allows you to defragment and extract pkg files from PS4 HDD dumps.<br>
-It has been field tested as has proven helpful in successfully recovering multiple pkgs from testkits!
+This simple tool allows you to defragment and extract PKG files from PS4 HDD dumps.<br>
+It has been field tested and has proven helpful in successfully recovering multiple PKGs from testkits!
 
 # Extracting The User Partition
 Use 7zip or a similar tool to extract `12.img` from the dumped HDD image.<br>
@@ -12,7 +12,7 @@ Scan the extracted but still encryted user partiton with HxD or a similar tool f
 ```
 7F 43 4E 54 00 00 00   .CNT...
 ```
-Make sure you don't use any of the known decryption tools as large PKG files are not encrypted.<br>
+Make sure you don't use any of the known decryption tools as large PKG files are <b>not</b> encrypted.<br>
 They end up getting overwritten with garbage data if you try to decrypt the user partition.
 
 # Chunk Size And Padding
