@@ -51,7 +51,7 @@ namespace pkg_defrag
 
 			if (pkgFileSize == -1)
 			{
-				MessageBox.Show("Select offset does not point to a pkg file!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				MessageBox.Show("Selected offset does not point to a pkg file!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 				return;
 			}
 
